@@ -1,6 +1,9 @@
+const API_KEY = "15da2cff6amshd1d5cc2632e414ep10847cjsn54d431a7a66e";
+
 const playlistContainer = $("#playlists");
 const musicContainer = $("#music-container");
 const searchForm = $("#search-form");
+const searchInput = $("#search-query-input");
 
 const readFromLocalStorage = (key, defaultValue) => {
   // get from LS using key name
@@ -13,6 +16,27 @@ const readFromLocalStorage = (key, defaultValue) => {
     return parsedData;
   } else {
     return defaultValue;
+  }
+};
+
+const constructUrl = (baseUrl, params) => {
+  const queryParams = new URLSearchParams(params).toString();
+
+  return queryParams ? `${baseUrl}?${queryParams}` : baseUrl;
+};
+
+const fetchData = async (url, options = {}) => {
+  try {
+    const response = await fetch(url, options);
+
+    if (response.ok) {
+      const data = await response.json();
+      return data;
+    } else {
+      throw new Error("Failed to fetch data");
+    }
+  } catch (error) {
+    throw new Error(error.message);
   }
 };
 
@@ -53,18 +77,49 @@ const renderError = (message) => {
   musicContainer.append(errorComponent);
 };
 
-const handleFormSubmit = (event) => {
-  event.preventDefault();
+const handleSearchInputChange = (event) => {
+  const target = $(event.target);
 
-  // get form values
-  const searchQuery = $("#search-query-input").val();
-  const searchType = $('input[name="type"]:checked').val();
+  // check if danger class already present and remove it
+  if (target.hasClass("is-danger")) {
+    target.removeClass("is-danger");
+  }
+};
 
-  // validate form
-  if (searchQuery && searchType) {
-    console.log("perform search");
-  } else {
-    renderError("There were no results found.");
+const handleFormSubmit = async (event) => {
+  try {
+    event.preventDefault();
+
+    // get form values
+    const searchQuery = searchInput.val();
+    const searchType = $('input[name="type"]:checked').val();
+
+    // validate form
+    if (searchQuery && searchType) {
+      // construct the URL
+      const baseUrl = "https://spotify23.p.rapidapi.com/search/";
+
+      const url = constructUrl(baseUrl, { q: searchQuery, type: searchType });
+
+      // construct fetch options
+      const options = {
+        method: "GET",
+        headers: {
+          "X-RapidAPI-Host": "spotify23.p.rapidapi.com",
+          "X-RapidAPI-Key": API_KEY,
+        },
+      };
+
+      // fetch data from API
+      const data = await fetchData(url, options);
+
+      console.log(data);
+    } else {
+      // target input and set class is-danger
+      searchInput.addClass("is-danger");
+    }
+  } catch (error) {
+    renderError("Sorry something went wrong and we are working on fixing it.");
   }
 };
 
@@ -81,5 +136,6 @@ const onReady = () => {
   }
 };
 
+searchInput.on("keyup", handleSearchInputChange);
 searchForm.submit(handleFormSubmit);
 $(document).ready(onReady);
