@@ -40,6 +40,10 @@ const fetchData = async (url, options = {}) => {
   }
 };
 
+const getArtists = (artists) => {
+  return artists.map((artist) => artist.profile.name).join(" | ");
+};
+
 const renderPlaylists = (playlists) => {
   const createPlaylist = (playlist) => {
     return `<li class="panel-block">
@@ -75,6 +79,57 @@ const renderError = (message) => {
 
   // append component to musicContainer
   musicContainer.append(errorComponent);
+};
+
+const renderTracks = (tracks) => {
+  if (tracks.length) {
+    const createTrack = (track) => {
+      const albumCover = track.data.albumOfTrack.coverArt.sources[0].url;
+      const artistName = getArtists(track?.data?.artists?.items || []);
+      const trackTitle = track.data.name;
+      const spotifyUrl = track.data.albumOfTrack.sharingInfo.shareUrl;
+
+      const trackCard = `<div class="card music-card">
+        <div class="card-image">
+          <figure class="image is-4by3">
+            <img
+              src=${albumCover}
+              alt="album cover image"
+            />
+          </figure>
+        </div>
+        <div class="card-content">
+          <div class="media">
+            <div class="media-content">
+              <p class="title is-4">${trackTitle}</p>
+              <p class="subtitle is-6">${artistName}</p>
+            </div>
+          </div>
+        </div>
+        <footer class="card-footer">
+          <button class="button is-ghost card-footer-item">
+            <i class="fa-solid fa-plus"></i>
+          </button>
+          <a
+            href=${spotifyUrl}
+            class="card-footer-item"
+            ><i class="fa-brands fa-spotify"></i
+          ></a>
+        </footer>
+      </div>`;
+
+      return trackCard;
+    };
+
+    const allTracks = tracks.map(createTrack).join("");
+
+    musicContainer.empty();
+
+    musicContainer.append(allTracks);
+  } else {
+    // render error
+    renderError("No results found.");
+  }
 };
 
 const handleSearchInputChange = (event) => {
@@ -113,7 +168,10 @@ const handleFormSubmit = async (event) => {
       // fetch data from API
       const data = await fetchData(url, options);
 
-      console.log(data);
+      if (searchType === "tracks") {
+        // render tracks
+        renderTracks(data?.tracks?.items || []);
+      }
     } else {
       // target input and set class is-danger
       searchInput.addClass("is-danger");

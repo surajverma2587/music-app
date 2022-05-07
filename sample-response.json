@@ -1,0 +1,560 @@
+{
+  "query": "Ed+Sheeran",
+  "tracks": {
+    "totalCount": 1000,
+    "items": [
+      {
+        "data": {
+          "uri": "spotify:track:50nfwKoDiSYg8zOCREWAm5",
+          "id": "50nfwKoDiSYg8zOCREWAm5",
+          "name": "Shivers",
+          "albumOfTrack": {
+            "uri": "spotify:album:32iAEBstCjauDhyKpGjTuq",
+            "name": "=",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02ef24c3fdbf856340d55cfeb2",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851ef24c3fdbf856340d55cfeb2",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273ef24c3fdbf856340d55cfeb2",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "32iAEBstCjauDhyKpGjTuq",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/32iAEBstCjauDhyKpGjTuq?si=SC7Jb2qVSwGY7l9Nni2ojA"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V",
+                "profile": {
+                  "name": "Ed Sheeran"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 207853
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:0QBzMgT7NIeoCYy3sJCof1",
+          "id": "0QBzMgT7NIeoCYy3sJCof1",
+          "name": "Bam Bam (feat. Ed Sheeran)",
+          "albumOfTrack": {
+            "uri": "spotify:album:6FIMt58naoGYrOe4Wn2P3n",
+            "name": "Bam Bam (feat. Ed Sheeran)",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02364ef5f9057092741f667fea",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851364ef5f9057092741f667fea",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273364ef5f9057092741f667fea",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "6FIMt58naoGYrOe4Wn2P3n",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/6FIMt58naoGYrOe4Wn2P3n?si=zdTqafPPQeCE96GDP2V8eQ"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:4nDoRrQiYLoBzwC5BhVJzF",
+                "profile": {
+                  "name": "Camila Cabello"
+                }
+              },
+              {
+                "uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V",
+                "profile": {
+                  "name": "Ed Sheeran"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 206070
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:0vLpDTq6TGxKI5xPAwoW2F",
+          "id": "0vLpDTq6TGxKI5xPAwoW2F",
+          "name": "Perfect",
+          "albumOfTrack": {
+            "uri": "spotify:album:5JZUPjOHK53a9n68f5Djqn",
+            "name": "Why Can't We Be Friends?",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e024af0b59dd7188b1731eabcb1",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048514af0b59dd7188b1731eabcb1",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2734af0b59dd7188b1731eabcb1",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "5JZUPjOHK53a9n68f5Djqn",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/5JZUPjOHK53a9n68f5Djqn?si=LejmraUeSau0vUaIg3aVrQ"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V",
+                "profile": {
+                  "name": "Ed Sheeran"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 263400
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:1Slwb6dOYkBlWal1PGtnNg",
+          "id": "1Slwb6dOYkBlWal1PGtnNg",
+          "name": "Thinking out Loud",
+          "albumOfTrack": {
+            "uri": "spotify:album:6NoBzYmh5gUusGPCfg0pct",
+            "name": "x (Wembley Edition)",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02d08209944468440145f01524",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851d08209944468440145f01524",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273d08209944468440145f01524",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "6NoBzYmh5gUusGPCfg0pct",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/6NoBzYmh5gUusGPCfg0pct?si=itjfeF2TS3ivo3_YvugBuQ"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V",
+                "profile": {
+                  "name": "Ed Sheeran"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 281560
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:3rmo8F54jFF8OgYsqTxm5d",
+          "id": "3rmo8F54jFF8OgYsqTxm5d",
+          "name": "Bad Habits",
+          "albumOfTrack": {
+            "uri": "spotify:album:32iAEBstCjauDhyKpGjTuq",
+            "name": "=",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02ef24c3fdbf856340d55cfeb2",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851ef24c3fdbf856340d55cfeb2",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273ef24c3fdbf856340d55cfeb2",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "32iAEBstCjauDhyKpGjTuq",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/32iAEBstCjauDhyKpGjTuq?si=SC7Jb2qVSwGY7l9Nni2ojA"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V",
+                "profile": {
+                  "name": "Ed Sheeran"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 230746
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:0FE9t6xYkqWXU2ahLh6D8X",
+          "id": "0FE9t6xYkqWXU2ahLh6D8X",
+          "name": "Shape of You",
+          "albumOfTrack": {
+            "uri": "spotify:album:7oJa8bPFKVbq4c7NswXHw8",
+            "name": "Shape of You",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0283e9b06ccd219248b5301264",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485183e9b06ccd219248b5301264",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27383e9b06ccd219248b5301264",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "7oJa8bPFKVbq4c7NswXHw8",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/7oJa8bPFKVbq4c7NswXHw8?si=-8Pm2do2S9m5_14XuqLMMg"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V",
+                "profile": {
+                  "name": "Ed Sheeran"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 233712
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:5it0QwktdpQ7oE33PbImkX",
+          "id": "5it0QwktdpQ7oE33PbImkX",
+          "name": "2step (feat. Antytila)",
+          "albumOfTrack": {
+            "uri": "spotify:album:0cNLR4ksEAAesnSOVzV33s",
+            "name": "2step (feat. Antytila)",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e023927e6a01e69011a86609d48",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048513927e6a01e69011a86609d48",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2733927e6a01e69011a86609d48",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "0cNLR4ksEAAesnSOVzV33s",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/0cNLR4ksEAAesnSOVzV33s?si=Sh2xJDUZRaC7N6ZnWGLzwA"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V",
+                "profile": {
+                  "name": "Ed Sheeran"
+                }
+              },
+              {
+                "uri": "spotify:artist:5sc9td6C7xxPa3mOmmvXPu",
+                "profile": {
+                  "name": "Antytila"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 153213
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:1NQVwRDJ0PlEwLrOIq5ysG",
+          "id": "1NQVwRDJ0PlEwLrOIq5ysG",
+          "name": "The Joker and the Queen",
+          "albumOfTrack": {
+            "uri": "spotify:album:3qUNd3SMojQ6wPInLlEx6j",
+            "name": "Mellow Mood",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e02dbf5b705f8003f81134c80ab",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00004851dbf5b705f8003f81134c80ab",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b273dbf5b705f8003f81134c80ab",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "3qUNd3SMojQ6wPInLlEx6j",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/3qUNd3SMojQ6wPInLlEx6j?si=ixjGpKJsSW6DKyGpRRWPKQ"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V",
+                "profile": {
+                  "name": "Ed Sheeran"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 185586
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:34gCuhDGsG4bRPIf9bb02f",
+          "id": "34gCuhDGsG4bRPIf9bb02f",
+          "name": "Thinking out Loud",
+          "albumOfTrack": {
+            "uri": "spotify:album:1xn54DMo2qIqBuMqHtUsFd",
+            "name": "x (Deluxe Edition)",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e0213b3e37318a0c247b550bccd",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000485113b3e37318a0c247b550bccd",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b27313b3e37318a0c247b550bccd",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "1xn54DMo2qIqBuMqHtUsFd",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/1xn54DMo2qIqBuMqHtUsFd?si=XYcBCH0iRASVfAEHutUKLw"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V",
+                "profile": {
+                  "name": "Ed Sheeran"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 281560
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      },
+      {
+        "data": {
+          "uri": "spotify:track:5rIjjNIvcrq5aWxLV0s43x",
+          "id": "5rIjjNIvcrq5aWxLV0s43x",
+          "name": "2step (feat. Lil Baby)",
+          "albumOfTrack": {
+            "uri": "spotify:album:0cNLR4ksEAAesnSOVzV33s",
+            "name": "2step (feat. Antytila)",
+            "coverArt": {
+              "sources": [
+                {
+                  "url": "https://i.scdn.co/image/ab67616d00001e023927e6a01e69011a86609d48",
+                  "width": 300,
+                  "height": 300
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d000048513927e6a01e69011a86609d48",
+                  "width": 64,
+                  "height": 64
+                },
+                {
+                  "url": "https://i.scdn.co/image/ab67616d0000b2733927e6a01e69011a86609d48",
+                  "width": 640,
+                  "height": 640
+                }
+              ]
+            },
+            "id": "0cNLR4ksEAAesnSOVzV33s",
+            "sharingInfo": {
+              "shareUrl": "https://open.spotify.com/album/0cNLR4ksEAAesnSOVzV33s?si=Sh2xJDUZRaC7N6ZnWGLzwA"
+            }
+          },
+          "artists": {
+            "items": [
+              {
+                "uri": "spotify:artist:6eUKZXaKkcviH0Ku9w2n3V",
+                "profile": {
+                  "name": "Ed Sheeran"
+                }
+              },
+              {
+                "uri": "spotify:artist:5f7VJjfbwm532GiveGC0ZK",
+                "profile": {
+                  "name": "Lil Baby"
+                }
+              }
+            ]
+          },
+          "contentRating": {
+            "label": "NONE"
+          },
+          "duration": {
+            "totalMilliseconds": 163449
+          },
+          "playability": {
+            "playable": true
+          }
+        }
+      }
+    ],
+    "pagingInfo": {
+      "nextOffset": 10,
+      "limit": 10
+    }
+  }
+}
