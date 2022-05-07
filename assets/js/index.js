@@ -1,4 +1,5 @@
 const playlistContainer = $("#playlists");
+const searchForm = $("#search-form");
 
 const readFromLocalStorage = (key, defaultValue) => {
   // get from LS using key name
@@ -41,6 +42,21 @@ const renderNotification = (message) => {
   playlistContainer.append(notificationComponent);
 };
 
+const handleFormSubmit = (event) => {
+  event.preventDefault();
+
+  // get form values
+  const searchQuery = $("#search-query-input").val();
+  const searchType = $('input[name="type"]:checked').val();
+
+  // validate form
+  if (searchQuery && searchType) {
+    console.log("perform search");
+  } else {
+    console.log("handle error");
+  }
+};
+
 const onReady = () => {
   // get playlists from LS
   const playlists = readFromLocalStorage("playlists", []);
@@ -54,4 +70,5 @@ const onReady = () => {
   }
 };
 
+searchForm.submit(handleFormSubmit);
 $(document).ready(onReady);
