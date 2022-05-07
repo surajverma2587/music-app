@@ -1,0 +1,11 @@
+.music-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.music-card {
+  width: 15rem;
+  margin: 10px;
+}
