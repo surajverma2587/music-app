@@ -1,4 +1,5 @@
 const playlistContainer = $("#playlists");
+const musicContainer = $("#music-container");
 const searchForm = $("#search-form");
 
 const readFromLocalStorage = (key, defaultValue) => {
@@ -42,6 +43,16 @@ const renderNotification = (message) => {
   playlistContainer.append(notificationComponent);
 };
 
+const renderError = (message) => {
+  // create component
+  const errorComponent = `<div class="notification is-danger is-light">
+    <i class="fa-solid fa-triangle-exclamation"></i> ${message}
+  </div>`;
+
+  // append component to musicContainer
+  musicContainer.append(errorComponent);
+};
+
 const handleFormSubmit = (event) => {
   event.preventDefault();
 
@@ -53,7 +64,7 @@ const handleFormSubmit = (event) => {
   if (searchQuery && searchType) {
     console.log("perform search");
   } else {
-    console.log("handle error");
+    renderError("There were no results found.");
   }
 };
 
